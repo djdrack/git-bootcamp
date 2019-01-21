@@ -1,4 +1,4 @@
-/* 
+/*
  * Code for basic C skills diagnostic.
  * Developed for courses 15-213/18-213/15-513 by R. E. Bryant, 2017
  * Modified to store strings, 2018
@@ -47,6 +47,7 @@ void q_free(queue_t *q)
  */
 bool q_insert_head(queue_t *q, char *s)
 {
+    //hello
     list_ele_t *newh;
     /* What should you do if the q is NULL? */
     newh = malloc(sizeof(list_ele_t));
